@@ -59,7 +59,8 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | The user installs Docker, Kubectl and Minikube using package managers |  |  |  |
 | **Then** |  | The installation is completed successfully and their version is available in CLI. |  |  |  |
 | **Test Run** |  | **Date** | 24/02/2025 | **Result** | Pass |
-| ![][image1] |  |  |  |  |  |
+
+|![][image1](images/image1.png)
 
 ## TC2: Deploy Flaskapp and MySQL on Minikube {#tc2:-deploy-flaskapp-and-mysql-on-minikube}
 

@@ -3,7 +3,6 @@
 #  **Kubernetes Two-Tier Application Deployment & Monitoring**  
 
 [**1\. Objective	2**](#1.-objective)
-fdff
 
 [**2\. Proposed Solutions	2**](#2.-proposed-solutions)
 
