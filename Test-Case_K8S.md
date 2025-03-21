@@ -71,6 +71,7 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | The user applies the YAML configuration using **Kubectl apply \-f \<manifest\>.yml** |  |  |  |
 | **Then** |  | Both FlaskApp and MySQL pods will be running in **Kubectl get pods** output.  |  |  |  |
 | **Test Run** |  | **Date** | 24/02/2025 | **Result** | Pass |
+
 ![image2](images/image2.png)
 
 ### 
@@ -84,6 +85,7 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | The user gets the cluster IP using the command: **minikube ip**And: The user accesses \<cluster-ip\>:\<NodePort\> in a browser. |  |  |  |
 | **Then** |  | The Flaskapp application works successfully in the browser. |  |  |  |
 | **Test Run** |  | **Date** | 24/02/2025 | **Result** | Pass |
+
 ![image3](images/image3.png)
 
 ## 
@@ -99,6 +101,7 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | The user installs Prometheus and Grafana using the helm packageAnd: Expose both services using Kubernetes service NodePort  |  |  |  |
 | **Then** |  | Prometheus and Grafana is  accessible in the browser via \<cluster-ip\>:\<NodePort\> |  |  |  |
 | **Test Run** |  | **Date** | 25/02/2025 | **Result** | Pass |
+
 ![image4](images/image4.png) ![image5](images/image5.png) 
 
 ## 
@@ -114,6 +117,7 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | The user accesses the Grafana Dashboard And: The user checks for the required metrics in the dashboard\- Running Pods count \- CPU utilisation \- Memory utilisation \- Restart count |  |  |  |
 | **Then** |  | The Grafana dashboard displays the configured metrics. |  |  |  |
 | **Test Run** |  | **Date** | 25/02/2025 | **Result** | Pass |
+
 ![image6](images/image6.png) 
 
 ## **TC6: Configuring Alert for High CPU/Memory Usage by running pods** {#tc6:-configuring-alert-for-high-cpu/memory-usage-by-running-pods}
@@ -125,6 +129,7 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | CPU or memory usage exceeds the set limit. |  |  |  |
 | **Then** |  | An email alert is sent to the configured Gmail ID. |  |  |  |
 | **Test Run** |  | **Date** | 25/02/2025 | **Result** | Pass |
+
 ![image7](images/image7.png) 
 
 ## 
@@ -138,7 +143,9 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | The user applies an Ingress resource. And: Edit /etc/hosts file in the system to add Ingress Controller IP with host address |  |  |  |
 | **Then** |  | The application  is accessible via http://\<host-url\> |  |  |  |
 | **Test Run** |  | **Date** | 25/02/2025 | **Result** | Pass |
+
 ![image7](images/image7.png)
+
 ## **NFR Test Cases: Application High Availability** {#nfr-test-cases:-application-high-availability}
 
 | Scenario |  | Ensure the Flask application remains highly available even when a pod fails. |  |  |  |
@@ -148,6 +155,7 @@ Install and set up a Minikube single-node Kubernetes cluster. Understand the arc
 | **When** |  | A pod running FlaskApp is **manually deleted** using:Kubectl delete pod Or a pod crashes due to resource constraints. |  |  |  |
 | **Then** |  | Kubernetes automatically **reschedules a new pod** to maintain availability. **And:** Running the command: kubectl get podsshould show a newly created pod replacing the deleted one. |  |  |  |
 | **Test Run** |  | **Date** | 04/03/2025 | **Result** | Pass |
+
 ![image8](images/image8.png)
 
 ### 
