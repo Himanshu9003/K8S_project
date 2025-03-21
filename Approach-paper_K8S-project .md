@@ -54,7 +54,13 @@ The objective of this project is to:
 
 # 3.1. Architecture Diagram
 
-![][image1]K8S Cluster
+ K8S Cluster
+
+ ![image10](images/image10.png)
+
+
+
+ ashna
 
 ## 3.2. Description {#3.2.-description}
 
