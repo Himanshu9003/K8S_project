@@ -56,11 +56,7 @@ The objective of this project is to:
 
  K8S Cluster
 
- ![image10](images/image10.png)
-
-
-
- ashna
+![image10](images/image10.jpg)
 
 ## 3.2. Description {#3.2.-description}
 
