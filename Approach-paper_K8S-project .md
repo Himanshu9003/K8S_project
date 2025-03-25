@@ -2,23 +2,25 @@
 
 #  **Kubernetes Two-Tier Application Deployment & Monitoring**  
 
-[**1\. Objective	2**](#1.-objective)
+# Table of Contenet 
 
-[**2\. Proposed Solutions	2**](#2.-proposed-solutions)
+**1. Objective**
 
-[**3\. Approach: Details	3**](#3.-approach:-details)
+[**2\. Proposed Solutions	**](#2.-proposed-solutions)
 
-[3.1. Architecture Diagram	3](#heading=h.pxa41j2ptx19)
+[**3\. Approach: Details	**](#3.-approach:-details)
 
-[3.2. Description	3](#3.2.-description)
+[3.1. Architecture Diagram	](#heading=h.pxa41j2ptx19)
 
-[3.3. Pre-requisites	4](#3.3.-pre-requisites)
+[3.2. Description	](#3.2.-description)
 
-[3.3.1. Hardware Requirements	4](#3.3.1.-hardware-requirements)
+[3.3. Pre-requisites	](#3.3.-pre-requisites)
 
-[3.3.2. Software Requirements	4](#3.3.2.-software-requirements)
+[3.3.1. Hardware Requirements	](#3.3.1.-hardware-requirements)
 
-[3.3.3. Networking Requirements	5](#3.3.3.-networking-requirements)
+[3.3.2. Software Requirements	](#3.3.2.-software-requirements)
+
+[3.3.3. Networking Requirements	](#3.3.3.-networking-requirements)
 
 # 1\. Objective {#1.-objective}
 
