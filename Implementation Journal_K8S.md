@@ -427,7 +427,7 @@ Note \- Use this default credentials to login Grafana
            User \- admin  
            Password \- prom-operator
 ```
-![image](images/image6.png)
+![image](images/image5.png)
 
 ## STEP 10: Create Grafana Dashboard for Resource Usage by running application 
 
