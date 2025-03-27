@@ -29,7 +29,7 @@ The objective of this project is to:
 * Set up **Prometheus and Grafana** for application monitoring.  
 * Create a **Grafana dashboard** to monitor key application metrics.  
 * Configure **alerts** for high CPU and memory utilization.  
-* Implement an **NGINX Ingress Controller** to make the application accessible over the Internet.
+* Implement an **NGINX Ingress Controller** to make the application accessible over the host.
 
 # 2\. Proposed Solutions
 
@@ -44,7 +44,7 @@ The objective of this project is to:
    * CPU and memory utilization.  
    * Total restart count of pods.  
 6. **Set up alerting** to notify via email when CPU/memory thresholds exceed limits.  
-7. **Configure NGINX Ingress Controller** to expose the application over the internet.
+7. **Configure NGINX Ingress Controller** to expose the application over the host.
 
 # 
 

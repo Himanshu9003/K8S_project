@@ -8,7 +8,7 @@
 
 **Goal \-**
 
-Install and set up a Minikube single-node Kubernetes cluster. Understand the architecture of Kubernetes. Deploy a **two-tier Flask application with MySQL** on the cluster by Kubectl using YAML manifests. Install and set up **Prometheus and Grafana** for monitoring running applications on cluster, setting up **alerts**, and exposing the application to the **internet using the NGINX Ingress Controller**.
+Install and set up a Minikube single-node Kubernetes cluster. Understand the architecture of Kubernetes. Deploy a **two-tier Flask application with MySQL** on the cluster by Kubectl using YAML manifests. Install and set up **Prometheus and Grafana** for monitoring running applications on cluster, setting up **alerts**, and exposing the application to the **host/node using the NGINX Ingress Controller**.
 
 ***
 
@@ -322,7 +322,7 @@ kube-system       Active   49d
 monitoring        Active   49d|
 ```
 
-## STEP 7: Install Prometheus and Grafana Monitoring Tool 
+## STEP 7: Install Prometheus and Grafana Monitoring Tool using Kube-prometheus stack
 
 ## Command executed \- 
 
