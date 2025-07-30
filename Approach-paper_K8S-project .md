@@ -44,7 +44,7 @@ The objective of this project is to:
    * CPU and memory utilization.  
    * Total restart count of pods.  
 6. **Set up alerting** to notify via email when CPU/memory thresholds exceed limits.  
-7. **Configure NGINX Ingress Controller** to expose the application over the host.
+7. **Configure NGINX Ingress Controller** to expose the application over the host using domain.
 
 # 
 
